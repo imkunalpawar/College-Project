@@ -1,0 +1,98 @@
+<doctype! html>
+<html lang="en">
+
+	<head>
+		<title>T.G. REPORT</title>
+		<meta charset="utf-8">
+		<style>
+			body { font-family:  font-family: Verdana,sans-serif;
+					font-size: 1.2em;
+			}
+			header, footer {
+					padding: 10px;
+					color: white;
+					border: 3px solid black;
+					background-color: brown;
+			}
+			nav ul {
+					padding: 10px;
+					border: 3px solid black;
+					background-color: orange;
+			}
+
+			nav ul li {
+					display: inline;
+					margin: 5px;
+			}
+			form {
+					
+					padding: 10px;
+					background-color: white;
+					
+			}
+			div{
+				margin: auto;
+				width: 50%;
+				border: 3px solid black;
+				padding: 10px;
+				background-color: brown;
+			}
+					
+			
+		</style>
+	</head>
+	
+	<body>
+		
+		<header><img src="header-new.png"/></header>
+		<nav>
+			<ul>
+				<a href="index.html"><li>Home</li></a>
+				<a href="student.html"><li>Student Registration</li></a>
+				<a href="contact.html"><li>Contact Us</li></a>
+			</ul>
+		</nav>
+	<form action="action_2.php" method="post">
+		
+			<div>
+			Branch: &ensp;&ensp; <select class="dropdown" name="branch">
+							<option value="computer">CSE</option>
+							<option value="civil">CE</option>
+							<option value="mechanical">ME</option>				  
+							<option value="electrical">EC</option>
+						</select><br/><br/>
+
+
+			Year: 	 &emsp;&ensp;&ensp;  <select class="dropdown" name="year">
+								<option value="first">1st</option>
+								<option value="second">2nd</option>
+								<option value="third">3rd</option>				  
+								<option value="fourth">4th</option>
+							</select><br/><br/>
+		
+			Semester:   &nbsp;<select class="dropdown" name="semester">
+							<option value="first">1st</option>
+							<option value="second">2nd</option>
+							<option value="third">3rd</option>				  
+							<option value="fourth">4th</option>
+							<option value="fifth">5th</option>
+							<option value="sixth">6th</option>
+							<option value="seventh">7th</option>
+							<option value="eighth">8th</option>
+						</select><br/><br/>
+
+			Batch: &nbsp;&nbsp;&nbsp;<select class="dropdown" name="session" >
+						<option value="17-18">2014-2018</option>
+					<!--<option value="civil">CE</option>
+						<option value="mechanical">ME</option>				  
+						<option value="electrical">EC</option> -->
+						</select> <br/><br/>
+				
+				&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;	<input type="submit" value="Search">
+		
+			</div>
+	
+	</form>
+	</body>
+
+</html>
